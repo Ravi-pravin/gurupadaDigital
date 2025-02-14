@@ -1,4 +1,4 @@
-.chatBox{
+.chatBox {
     background-color: var(--primaryColor);
     position: fixed;
     bottom: 3rem;
@@ -7,65 +7,78 @@
     border-radius: 50%;
     cursor: pointer;
 }
-.chatBox i{
-   font-size: 2.5rem;
+
+.chatBox i {
+    font-size: 2.5rem;
 }
 
 
-.navContainer{
+.navContainer {
     /* background-color: #7fffd4; */
 }
-.navTopBody{
+
+.navTopBody {
     background-color: var(--primaryColor);
     cursor: pointer;
 }
-.navTopBlock{
+
+.navTopBlock {
     /* background-color: #617871; */
 }
-.navTopBox{
+
+.navTopBox {
     /* background-color: #0b6ba2; */
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0.5rem;
 }
-.navTopBox p{
+
+.navTopBox p {
     /* background-color: #0b6ba2; */
     font-family: var(--ffSecondary);
     font-size: 2rem;
     padding: 0rem 0.5rem;
     color: #ffffff;
 }
-.navBarBody{
+
+.navBarBody {
     background-color: #000000;
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
-.logoBlock{
+
+.logoBlock {
     /* background-color: aquamarine; */
 }
-.logoBox{
+
+.logoBox {
     background-color: #ffffff;
     padding: 1rem 3rem 1rem 1rem;
 }
-.logoBox img{
+
+.logoBox img {
     /* background-color: aquamarine; */
     width: 25rem;
     cursor: pointer;
 }
-.navLinkBlock{
+
+.navLinkBlock {
     /* background-color: aquamarine; */
 }
-.navLinkBox{
+
+.navLinkBox {
     /* background-color: aquamarine; */
     width: 100%;
 }
-.navLinks{
+
+.navLinks {
     /* background-color: rgb(6, 89, 61); */
     /* width: 100%; */
-    padding-left: 20rem; 
+    padding-left: 20rem;
 }
-.navLinks a{
+
+.navLinks a {
     /* background-color: aquamarine; */
     font-size: 1.6rem;
     font-family: var(--ffSecondary);
@@ -75,68 +88,79 @@
     width: 100%;
     cursor: pointer;
 }
-.vertical-line{
-    border-left: 1px  solid white;
+
+.vertical-line {
+    border-left: 1px solid white;
     height: 2rem;
     margin: 0rem 1rem 0rem 1rem;
 }
-.icon i{
+
+.icon i {
     /* background-color: aquamarine; */
     padding: 1em 2rem 1rem 2rem;
     font-size: 2rem;
 }
-.menu-line{
+
+.menu-line {
     height: 3px;
     width: 20px;
     background-color: #ffffff;
     margin: 3px;
     cursor: pointer;
 }
-.handBurger{
+
+.handBurger {
     display: none;
 }
 
 
-           /*hero*/
+/*hero*/
 
-           
 
-.heroSection{
+
+.heroSection {
     background-color: #000000;
 }
-.heroContainer{
+
+.heroContainer {
     background-color: #069f6c;
     background-image: url(./assets/images/heroimg.jpg);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
 }
-.heroBody{
+
+.heroBody {
     /* background-color: #069f6c; */
 }
-.heroBlock{
+
+.heroBlock {
     /* background-color: #069f6c; */
 }
-.heroBox{
+
+.heroBox {
     /* background-color: #069f6c; */
     padding-top: 10rem;
 }
-.heroBox h3{
+
+.heroBox h3 {
     /* background-color: #069f6c; */
     font-family: var(--ffPrimary);
     font-size: 7.8rem;
     color: #ffffff;
-    
+
 }
-.heroBox p{
+
+.heroBox p {
     /* background-color: #069f6c; */
     font-family: var(--ffSecondary);
     font-size: 2.5rem;
     color: #ffffff;
     padding-bottom: 4rem;
 }
-.heroBox button{
+
+.heroBox button {
     background-color: var(--primaryColor);
     font-size: 1.6rem;
     padding: 2rem 3.2rem;
@@ -154,65 +178,79 @@
 
 
 
-.aboutusSection{
+.aboutusSection {
     /* background-color: #7fffd4; */
 }
-.aboutUsContainer{
+
+.aboutUsContainer {
     /* background-color: #7fffd4;tenth */
 }
-.aboutusHeadingBody{
+
+.aboutusHeadingBody {
     /* background-color: #7fffd4; */
 }
-.aboutusHeadingBlock{
+
+.aboutusHeadingBlock {
     /* background-color: #7fffd4; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.aboutusHeadingBox{
+
+.aboutusHeadingBox {
     /* background-color: #28a87d; */
     padding: 2rem 0rem;
 }
-.aboutusHeadingBox h3{
+
+.aboutusHeadingBox h3 {
     /* background-color: #7fffd4; */
     font-family: var(--ffPrimary);
     font-size: 6rem;
     font-weight: 1000;
     color: var(--primaryColor);
 }
-.line{
+
+.line {
     display: flex;
     justify-content: center;
     margin-bottom: 4rem;
 }
-.line hr{
+
+.line hr {
     border: 1px solid #ddd8d8;
-    width: 6rem;   
+    width: 6rem;
 }
-.aboutusBody{
+
+.aboutusBody {
     /* background-color: #7fffd4; */
     gap: 3rem;
 }
-.aboutusImgBlock{
+
+.aboutusImgBlock {
     /* background-color: #a50707; */
 }
-.aboutUsimgBox{
+
+.aboutUsimgBox {
     /* background-color: #7fffd4; */
 }
-.aboutUsimgBox img{
+
+.aboutUsimgBox img {
     /* background-color: #7fffd4; */
 }
-.aboutusContentBlock{
+
+.aboutusContentBlock {
     /* background-color: #7fffd4; */
 }
-.aboutUsContentBox{
+
+.aboutUsContentBox {
     /* background-color: burlywood; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
 }
-.aboutusContentBlock h4{
+
+.aboutusContentBlock h4 {
     /* background-color: #7fffd4; */
     font-family: var(--ffSecondary);
     font-size: 2.7rem;
@@ -220,7 +258,8 @@
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
-.aboutusContentBlock p{
+
+.aboutusContentBlock p {
     /* background-color: #7fffd4; */
     font-family: var(--ffSecondary);
     font-size: 2rem;
@@ -235,42 +274,50 @@
 
 
 
-.missionContainer{
+.missionContainer {
     /* background-color: #969696; */
 }
-.missionBody{
+
+.missionBody {
     /* background-color: #7fffd4; */
     gap: 3rem;
 }
-.missionImgBlock{
+
+.missionImgBlock {
     /* background-color: #ff907f; */
 }
-.missionImgBox{
+
+.missionImgBox {
     /* background-color: #7fffd4; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.missionImgBox img{
+
+.missionImgBox img {
     /* background-color: #7fffd4; */
 }
-.missionContentBlock{
+
+.missionContentBlock {
     /* background-color: #7f81ff; */
 }
-.missionContentBox{
+
+.missionContentBox {
     /* background-color: burlywood; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.missionContentBlock h4{
+
+.missionContentBlock h4 {
     /* background-color: #7fffd4; */
     font-family: var(--ffSecondary);
     font-size: 2.7rem;
     font-weight: 350;
     margin-bottom: 3rem;
 }
-.missionContentBlock p{
+
+.missionContentBlock p {
     /* background-color: #7fffd4; */
     font-family: var(--ffSecondary);
     font-size: 2rem;
@@ -283,30 +330,36 @@
 
 
 
-.valuesBody{
+.valuesBody {
     /* background-color: #7fffd4; */
     gap: 3rem;
 }
-.valuesImgBlock{
+
+.valuesImgBlock {
     /* background-color: #ff7f7f; */
 }
-.valuesImgBox{
+
+.valuesImgBox {
     /* background-color: #7fffd4; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.valuesBox img{
+
+.valuesBox img {
     /* background-color: #7fffd4; */
 }
-.valuesContentBlock{
+
+.valuesContentBlock {
     /* background-color: #ad10a2; */
 }
-.valuesContentBox{
+
+.valuesContentBox {
     /* background-color: burlywood; */
     padding-left: 3rem;
 }
-.valuesContentBlock h4{
+
+.valuesContentBlock h4 {
     /* background-color: #7fffd4; */
     font-family: var(--ffSecondary);
     font-size: 2.7rem;
@@ -314,7 +367,8 @@
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
-.valuesContentBlock li{
+
+.valuesContentBlock li {
     /* background-color: #7fffd4; */
     font-family: var(--ffSecondary);
     text-align: start;
@@ -329,33 +383,40 @@
 
 
 
-.approachBody{
+.approachBody {
     /* background-color: #7fffd4; */
     gap: 3rem;
 }
-.approachImgBlock{
+
+.approachImgBlock {
     /* background-color: #7fffd4; */
 }
-.approachImgBox{
+
+.approachImgBox {
     /* background-color: #7fffd4; */
 }
-.approachImgBox img{
+
+.approachImgBox img {
     /* background-color: #7fffd4; */
 }
-.approachContentBlock{
+
+.approachContentBlock {
     /* background-color: #7fffd4; */
 }
-.approachContentBox{
+
+.approachContentBox {
     /* background-color: burlywood; */
 }
-.approachContentBlock h4{
+
+.approachContentBlock h4 {
     /* background-color: #7fffd4; */
     font-family: var(--ffSecondary);
     font-size: 2.7rem;
     font-weight: 350;
     margin-bottom: 3rem;
 }
-.approachContentBlock li{
+
+.approachContentBlock li {
     /* background-color: #7fffd4; */
     font-family: var(--ffSecondary);
     text-align: start;
@@ -363,7 +424,8 @@
     font-weight: 400;
     color: #5e5e5e;
 }
-.point .para{
+
+.point .para {
     list-style-type: disc;
     text-align: start;
 }
@@ -375,56 +437,69 @@
 
 
 
-.clientsSection{
+.clientsSection {
     /* background-color: #7fffd4; */
 }
-.clientsContainer{
+
+.clientsContainer {
     /* background-color: #7fffd4; */
 }
-.clientsHeadingBody{
+
+.clientsHeadingBody {
     /* background-color: #7fffd4; */
 }
-.clientsBlock{
+
+.clientsBlock {
     /* background-color: #7fffd4; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.clientsBox{
+
+.clientsBox {
     /* background-color: #7fffd4; */
     padding: 6rem 0rem 3rem 0rem;
 }
-.clientsBox h2{
+
+.clientsBox h2 {
     /* background-color: #7fffd4; */
     font-family: var(--ffPrimary);
     font-size: 6rem;
     font-weight: 1000;
     color: var(--primaryColor);
 }
-.sliderBody{
+
+.sliderBody {
     /* background-color: aqua; */
 }
-.leftArrowblock{
+
+.leftArrowblock {
     /* background-color: aqua; */
 }
-.leftArroewBox{
+
+.leftArroewBox {
     /* background-color: aqua; */
 }
-.leftArrowBox i{
+
+.leftArrowBox i {
     /* background-color: aqua; */
     font-size: 7rem;
     cursor: pointer;
 }
-.clientLogoblock{
+
+.clientLogoblock {
     /* background-color: aqua; */
 }
-.rightArrowblock{
+
+.rightArrowblock {
     /* background-color: aqua; */
 }
-.rightArrowBox{
+
+.rightArrowBox {
     /* background-color: aqua; */
 }
-.rightArrowBox i{
+
+.rightArrowBox i {
     /* background-color: aqua; */
     font-size: 7rem;
     cursor: pointer;
@@ -436,26 +511,31 @@
 
 
 
-.socialSection{
+.socialSection {
     /* background-color: #7fffd4; */
 }
-.socialContainer{
+
+.socialContainer {
     /* background-color: #7fffd4; */
 }
-.socialHeadingBody{
+
+.socialHeadingBody {
     /* background-color: #7fffd4; */
 }
-.socialBlock{
+
+.socialBlock {
     /* background-color: #7fffd4; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.socialBox{
+
+.socialBox {
     /* background-color: #7fffd4; */
     padding: 2rem 0rem 0rem 0rem;
 }
-.socialBox h2{
+
+.socialBox h2 {
     /* background-color: #7fffd4; */
     font-family: var(--ffPrimary);
     font-size: 6rem;
@@ -463,19 +543,23 @@
     color: var(--primaryColor);
     margin-bottom: 2rem;
 }
-.socialIconBody{
-    /* background-color: burlywood; */
+
+.socialIconBody {
+    /* background-color: #ff0404; */
 }
-.iconBox{
-    /* background-color: burlywood; */
+
+.iconBox {
+    /* background-color: #87de90; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 3rem 0rem;
     cursor: pointer;
+    max-width: fit-content;
 }
-.iconBox1 i{
+
+.iconBox1 i {
     /* background-color: #372104; */
     font-size: 4rem;
     padding: 2rem 2rem;
@@ -483,7 +567,8 @@
     margin: 1.5rem;
     cursor: pointer;
 }
-.iconBox2 i{
+
+.iconBox2 i {
     /* background-color: #4bb830; */
     font-size: 4rem;
     padding: 2rem 2rem;
@@ -491,7 +576,8 @@
     margin: 1.5rem;
     cursor: pointer;
 }
-.iconBox3 i{
+
+.iconBox3 i {
     /* background-color: #30b1b8; */
     font-size: 4rem;
     padding: 2rem 2rem;
@@ -510,90 +596,110 @@
 
 
 
-.footerSection{
+.footerSection {
     background-color: #000000;
 }
-.footerContainer{
+
+.footerContainer {
     background-color: #000000;
 }
-.footerLinkBody{
+
+.footerLinkBody {
     /* background-color: #de4747; */
     margin-top: 3rem;
 }
-.footerLinkBox{
+
+.footerLinkBox {
     /* background-color: #efe7e7; */
     padding: 6rem 0rem 4rem 0rem;
 }
-.footerLinks{
+
+.footerLinks {
     /* background-color: #802063; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.footerLinks a{
+
+.footerLinks a {
     /* background-color: #2550b5; */
     margin: 0rem 1rem;
     color: var(--lightColor);
     font-size: 1.7rem;
 }
-.footerLinkBody{
+
+.footerLinkBody {
     /* background-color: #b61515; */
 }
-.footerLinkBody{
+
+.footerLinkBody {
     /* background-color: #d0b81e; */
 }
-.footerContactBody{
+
+.footerContactBody {
     background-color: #000000;
 }
-.footerContactBlock{
+
+.footerContactBlock {
     background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.footerContactBox{
+
+.footerContactBox {
     background-color: #000000;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.footerContactBox h5{
+
+.footerContactBox h5 {
     background-color: #000000;
     color: var(--lightColor);
     font-size: 2rem;
     margin-bottom: 2rem;
 }
-.footerContactBox p{
+
+.footerContactBox p {
     background-color: #000000;
     color: var(--primaryColor);
     font-size: 2rem;
     margin-bottom: 2rem;
 }
-.copyrightsBody{
+
+.copyrightsBody {
     background-color: #000000;
 }
-.copyrightsBlock{
+
+.copyrightsBlock {
     background-color: #000000;
 }
-.copyrightsBox{
+
+.copyrightsBox {
     background-color: #000000;
-    padding: 1rem 0rem 5rem 0rem ;
+    padding: 1rem 0rem 5rem 0rem;
 }
-.copyrightsBox p{
+
+.copyrightsBox p {
     background-color: #000000;
     color: #969696;
 }
-.poweredBlock{
+
+.poweredBlock {
     background-color: #000000;
     flex-direction: column;
     /* padding-left: 15rem; */
 }
-.poweredBox{
+
+.poweredBox {
     background-color: #000000;
-    padding: 1rem 0rem 5rem 0rem ;
+    padding: 1rem 0rem 5rem 0rem;
 }
-.poweredBox p{
+
+.poweredBox p {
     background-color: #000000;
     color: #969696;
 }
+
