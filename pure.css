@@ -132,7 +132,6 @@
 
 
 
-
 /*Vission*/
 
 
@@ -194,7 +193,6 @@
 
 
 
-
 /*mission*/
 
 
@@ -202,7 +200,6 @@
 .missionBody {
     gap: 3rem;
 }
-
 
 .missionImgBox {
     display: flex;
@@ -234,18 +231,15 @@
 /*values*/
 
 
-
 .valuesBody {
     gap: 3rem;
 }
-
 
 .valuesImgBox {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 
 .valuesContentBox {
     padding-left: 3rem;
@@ -319,7 +313,6 @@
     font-weight: 1000;
     color: var(--primaryColor);
 }
-
 
 .leftArrowBox i {
     font-size: 7rem;
