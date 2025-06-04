@@ -206,45 +206,6 @@ footer {
     height: auto;
 }
 
-/* :::PARENT CONTAINER Code Ends here::: */
-/* :::PARENT CONTAINER Code Ends here::: */
-
-/* :::HEADER Code Starts hereE::: */
-/* Navbar code */
-/* Navbar code */
-
-/* Hero Section code */
-/* Hero Section code */
-/* :::HEADER Code Ends here::: */
-
-
-/* :::MAIN Code Starts here::: */
-/* Our Menu code */
-/* Our Menu code */
-
-/* Facility code */
-/* Facility code */
-
-/* Popular code */
-/* Popular code */
-
-/* Gallery code */
-/* Gallery code */
-
-/* Team code */
-/* Team code */
-/* :::MAIN Code Ends here::: */
-
-
-/* :::FOOTER Code Starts here::: */
-/* Contact code */
-/* Contact code */
-
-/* Contact Icons code */
-/* Contact Icons code */
-/* :::FOOTER Code Ends here::: */
-
-
 @media (max-width: 576px) {
 
     .grid-1,
@@ -253,12 +214,6 @@ footer {
     .grid-4 {
         display: grid;
         grid-template-columns: 1fr;
-    }
-
-    .logoBlock {
-        display: flex;
-        justify-content: flex-start;
-        padding-left: 2rem;
     }
 
     .heroBox h3 {

@@ -38,11 +38,6 @@
     grid-template-columns: 1fr 2fr;
 }
 
-
-.navLinkBox {
-    width: 100%;
-}
-
 .navbar {
     background-color: #000000;
 }
@@ -54,7 +49,7 @@
 
 .navbar-brand img {
     width: 25rem;
-    height: auto;
+    height: 8rem;
     cursor: pointer;
 }
 
