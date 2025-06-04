@@ -71,6 +71,9 @@
     width: 100%;
     cursor: pointer;
 }
+.nav-link:hover {
+    color: var(--primaryColor);
+}
 
 .vertical-line {
     border-left: 1px solid white;
